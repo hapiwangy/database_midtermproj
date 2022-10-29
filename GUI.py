@@ -38,8 +38,8 @@ class MyFrame1 ( wx.Frame ):
 		self.password.Wrap( -1 )
 		gSizer3.Add( self.password, 0, wx.ALL, 5 )
 		
-		self.input_pass = wx.TextCtrl( self.m_panel17, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize,wx.TE_PASSWORD)
-		self.input_pass.SetFont( wx.Font( wx.NORMAL_FONT.GetPointSize(), wx.FONTFAMILY_SCRIPT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.input_pass = wx.TextCtrl( self.m_panel17, wx.ID_ANY, wx.EmptyString, wx.DefaultPosition, wx.DefaultSize, wx.TE_PASSWORD )
+		self.input_pass.SetFont( wx.Font( wx.NORMAL_FONT.GetPointSize(), wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 		
 		gSizer3.Add( self.input_pass, 0, wx.ALL, 5 )
 		
